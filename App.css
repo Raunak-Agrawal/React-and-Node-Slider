@@ -1,0 +1,58 @@
+/* .App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+} */
+
+.carousel {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 913px;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  background: #e3e3e3;
+  margin: 51px 58px;
+  box-shadow: 1px 1px 10px #d8d8d8;
+  padding: 0 20px;
+  margin-left: 160px;
+  /* margin: 0 auto; */
+}
+
+.image-slide {
+  height: 200px;
+  margin-left: 4px;
+  width: 300px;
+  float: left !important;
+}
+
+.slide-arrow {
+  color: blue;
+  cursor: pointer;
+  font-size: 2rem;
+  position: fixed;
+  top: 24%;
+}
+
+.slide-arrow.right {
+  right: 1rem;
+}
+
+.slide-arrow.left {
+  left: 1rem;
+}
